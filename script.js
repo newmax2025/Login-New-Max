@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (users[username] && users[username] === password) {
             alert("Login bem-sucedido!");
             // Redireciona para a página após o login bem-sucedido
-            window.location.href = "https://paulovitorazzariti.github.io/Area-de-Mombros-New-Max/";
+            window.location.href = "https://newmax2025.github.io/Nex-Max-Consultas/";
         } else {
             errorMessage.textContent = "Usuário ou senha inválidos!";
             errorMessage.style.color = "red";
