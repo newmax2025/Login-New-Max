@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login New Max Consultas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <img src="img/Logo Nex Max.png" alt="Logo do Cliente" class="logo">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Usuário" required>
+            <input type="password" id="password" placeholder="Senha" required>
+            <button type="submit">Entrar</button>
+        </form>
+        <p id="error-message" class="error-message"></p>
+        <button onclick="showRegister()" class="register-btn">Criar Conta</button>
+    </div>
+
+    <div class="register-container" style="display: none;">
+        <h2>Cadastro</h2>
+        <form id="registerForm">
+            <input type="text" id="newUsername" placeholder="Novo Usuário" required>
+            <input type="password" id="newPassword" placeholder="Nova Senha" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p id="register-message" class="error-message"></p>
+        <button onclick="showLogin()" class="login-btn">Voltar ao Login</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
